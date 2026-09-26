@@ -1,0 +1,38 @@
+# OS / IDE
+.DS_Store
+.claude
+CLAUDE.md
+.vscode/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+.turbo/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Laravel
+BackEnd/.env
+BackEnd/.env.backup
+BackEnd/storage/*.key
+BackEnd/storage/app/public/
+BackEnd/storage/framework/cache/*
+BackEnd/storage/framework/sessions/*
+BackEnd/storage/framework/views/*
+BackEnd/storage/logs/*
+
+# Composer
+BackEnd/vendor/
+
+# PHP
+.phpunit.result.cache
